@@ -60,7 +60,20 @@ namespace Gravity
 
 		public string name;
 
+        public int AbilityToCombine;
+
 		public int isGoodAtProgramming;
+
+        public int ExcellentMemory;
+
+        public int GoodAtMathAndLogic;
+
+        public int AbilityToMakeAsound;
+
+        public int WantingToMakeASound;
+
+        public int changeform;
+
 
 		public Ding(int speed, int massen, int color, int size, Gravity form1)
 		{
@@ -99,6 +112,12 @@ namespace Gravity
 			Enjoystravel = rand.Next(1000);
 			athlete = rand.Next(1000);
 			isGoodAtProgramming = rand.Next(100000, 20000000);
+            AbilityToCombine = rand.Next(50);
+            ExcellentMemory = rand.Next(1000);
+            GoodAtMathAndLogic = rand.Next(100, 1000);
+            AbilityToMakeAsound = rand.Next(1000);
+            WantingToMakeASound = rand.Next(200);
+            changeform = rand.Next(100);
 		}
 
 		public Ding()

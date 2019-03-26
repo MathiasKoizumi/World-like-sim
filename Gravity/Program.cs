@@ -1,7 +1,6 @@
 using System;
 using System.Windows.Forms;
-
-namespace Gravity._0
+namespace Gravity
 {
 	internal static class Program
 	{
