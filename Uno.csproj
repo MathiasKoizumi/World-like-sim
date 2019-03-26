@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <ProjectGuid>{DDC752BE-DC44-4494-8EB2-15045F731A80}</ProjectGuid>
+    <ProjectGuid>{4DA46480-3585-41BD-AA75-30DCBF6646D1}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <OutputType>WinExe</OutputType>
     <LangVersion>7.3</LangVersion>
-    <AssemblyName>GravityLivesOn1.0</AssemblyName>
+    <AssemblyName>Uno</AssemblyName>
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <WarningLevel>4</WarningLevel>
@@ -51,6 +51,9 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="GravityLivesOn1._0\car.jpg" />
+    <EmbeddedResource Include="GravityLivesOn1._0\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
